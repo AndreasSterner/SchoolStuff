@@ -1,24 +1,37 @@
-/*
-
 html {
   background-image: url("../CSS/Assets/samuel-scrimshaw-361584.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
-  background-color: #CCC;
+  font-family: sans-serif;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: auto;
+  width: 75%;
+
 }
 
 h1 {
-  padding-left: 40%;
-  padding-right: 40%;
   font-size: 250%;
 }
 
-.players {
-  float: left;
+button {
+  margin-left: 20px;
+}
+
+.Game {
+  text-align: center;
+  width: 30%;
+  padding: 10px;
   min-width: 97%;
   min-height: 97%;
-
 }
-*/
+
+.players {
+  display: inline-block !important;
+}
+
+#player2 {
+  margin-left: 200px;
+}
