@@ -49,6 +49,16 @@ button {
   margin-left: 200px;
 }
 
+#playerName1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+#playerName2 {
+  font-size: 200%;
+  font-weight: bold;
+}
+
 .playerPoints {
   margin: 50px;
   font-size: 400%;
