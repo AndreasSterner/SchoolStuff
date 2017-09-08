@@ -40,7 +40,7 @@ document.getElementById('playerRoll1').onclick = function() {
     document.getElementById('addPointsPlayer1').innerHTML = `+${rollNumber}`;
     document.getElementById('playerPoints1').innerHTML = playerTotalNumber1;
 
-    if (playerTotalNumber1 > 149) {
+    if (playerTotalNumber1 > 50) {
       document.getElementById('playerName1').innerHTML = `${playerName1Var} - Winner!`;
     }
 
@@ -61,7 +61,7 @@ document.getElementById('playerRoll2').onclick = function() {
     document.getElementById('addPointsPlayer2').innerHTML = `+${rollNumber}`;
     document.getElementById('playerPoints2').innerHTML = playerTotalNumber2;
 
-    if (playerTotalNumber1 > 149) {
+    if (playerTotalNumber1 > 50) {
       document.getElementById('playerName1').innerHTML = `${playerName2Var} - Winner!`;
     }
 
