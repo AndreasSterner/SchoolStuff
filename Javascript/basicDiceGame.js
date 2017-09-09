@@ -1,6 +1,6 @@
 console.log("test"); // works
 // aware of reapeating myself instead of making functions for things but I am way too lazy to bother since this isn't a real project
-// also started woith JS less than 2 weeks ago so whatever
+// also started with JS less than 2 weeks ago so whatever
 
 var playerName1Var = "Player 1";
 var playerName2Var = "Player 2";
