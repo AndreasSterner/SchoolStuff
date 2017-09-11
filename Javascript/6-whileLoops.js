@@ -1,49 +1,36 @@
 // Copied some things from previous file (5-forLoops.js)
 
-var i = 0;
+// var i = 0;
+//
+// var tweets = ["Hey", "What's up?", "Listening to some music", "Check this out!", "Amazing!"];
+//
+// tweetString = "";
+//
+// while (i < tweets.length){
+//
+//   tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+//
+//   i++;
+//
+//   }
+//   document.getElementById("tweetDiv").innerHTML = tweetString;
 
-var tweets = ["Hey", "What's up?", "Listening to some music", "Check this out!", "Amazing!"];
+  var guess = Math.floor((Math.random() * 6) + 1);
 
-tweetString = "";
+  console.log(guess);
 
-while (i < tweets.length){
-
-  tweetString = tweetString + "<p>" + tweets[i] + "</p>";
-
-  i++;
-
-  }
-  document.getElementById("tweetDiv").innerHTML = tweetString;
-
+  var numberOfGuesses = 0;
 
   document.getElementById("guess").onclick = function() {
 
     var myNumber = document.getElementById("myNumber").value;
 
-    var gotIt = false;
+    numberOfGuesses++;
 
-    var numberOfGuesses = 1;
+  if (myNumber == guess) {
+    alert ("Correct! It was " + guess + ". It took me " + numberOfGuesses + " guesse(s).");
+  }
 
-    while (gotIt == false) {
 
-        var guess = Math.random();
-
-        guess = guess * 6;
-
-        guess = Math.floor(guess);
-
-        if (guess == myNumber) {
-
-            gotIt = true;
-
-            alert ("Correct! It was " + guess + ". It took me " + numberOfGuesses + " guesse(s).");
-
-        } else {
-
-            numberOfGuesses++;
-
-        }
-
-    }
 
 }
