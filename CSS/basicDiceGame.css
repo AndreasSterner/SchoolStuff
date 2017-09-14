@@ -45,6 +45,17 @@ button {
   display: inline-block !important;
 }
 
+#addPointsPlayer1 {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+#addPointsPlayer2 {
+  height: 100px;
+  width: 100px;
+  display: none;
+}
+
 #player2 {
   margin-left: 200px;
 }
@@ -62,4 +73,12 @@ button {
 .playerPoints {
   margin: 50px;
   font-size: 400%;
+}
+
+#playerRoll1 {
+  float: right;
+}
+
+#playerRoll2 {
+  float: right;
 }
