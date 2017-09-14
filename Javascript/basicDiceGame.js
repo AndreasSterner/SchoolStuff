@@ -66,8 +66,8 @@ document.getElementById('playerRoll2').onclick = function() {
     $('#addPointsPlayer2').attr('src', `../CSS/Assets/Dices/dice-${rollNumber}.png`);
     document.getElementById('playerPoints2').innerHTML = playerTotalNumber2;
 
-    if (playerTotalNumber1 > 50) {
-      document.getElementById('playerName1').innerHTML = `${playerName2Var} - Winner!`;
+    if (playerTotalNumber2 > 50) {
+      document.getElementById('playerName2').innerHTML = `${playerName2Var} - Winner!`;
 
 
     }
