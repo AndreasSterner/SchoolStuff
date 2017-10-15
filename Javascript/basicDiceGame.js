@@ -44,9 +44,7 @@ document.getElementById('playerRoll1').onclick = function() {
 
     if (playerTotalNumber1 > 50) {
       document.getElementById('playerName1').innerHTML = `${playerName1Var} - Winner!`;
-
     }
-
   }
 }
 //Player 2

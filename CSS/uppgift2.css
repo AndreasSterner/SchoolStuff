@@ -1,0 +1,63 @@
+body {
+    background-color: #606060;
+}
+
+h1 {
+    font-size: 250%;
+    font-family: sans-serif;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 120%;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+p2 {
+    color: black;
+    font-size: 120%;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#divYellow {
+    background-color: #FFFF00;
+    float: left;
+    width: 25%;
+}
+
+#div2Yellow {
+    background-color: #FFFF00;
+    float: left;
+    width: 25%;
+}
+
+#back{
+    background-color: #b069b4;
+    float: left;
+    width: 35%;
+    padding-bottom: 2%;
+}
+
+#back_end {
+    clear: both;
+}
+
+#sepparering {
+    background-color: white;
+    height: 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#padding-extra {
+    padding-right: 15%;
+
+}
