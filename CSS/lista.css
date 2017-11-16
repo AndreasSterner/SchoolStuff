@@ -1,0 +1,70 @@
+body {
+    background-image: url(assets/background-thing.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+h3 {
+    color: white;
+}
+
+.topBottomMargin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#inputAdd {
+    margin-top: 7.5%;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.872);
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    margin-left: 37.50%;
+}
+
+#buttonAdd {
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-right: 10px;
+    background-color: rgba(44, 218, 28, 0.893);
+    border-radius: 10px;
+}
+
+#clear {
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-right: 10px;
+    background-color: rgba(223, 30, 40, 1);
+    color: white;
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-bottom: 1%;
+}
+
+#myList {
+    padding-right: 2.5%;
+    list-style: none;
+    font-weight: bold;
+    margin-top: 25px;
+    color: white;
+}
+
+#sessionDiv {
+    margin-top: 6%;
+    background-color: rgba(0, 0, 0, 0.219)
+}
+
+#sessionInfoText {
+margin-top: 5%;
+color: white;
+
+}
+#sessionInfo {
+    color: white;
+    margin-top: 15px;
+    font-size: 25px;
+}
